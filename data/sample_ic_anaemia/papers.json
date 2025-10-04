@@ -1,0 +1,22 @@
+{
+  "papers": [
+    {
+      "title": "Intravenous iron in ICU anaemia: a pragmatic randomized trial",
+      "authors": [
+        "Smith J",
+        "Lee A",
+        "Patel R"
+      ],
+      "journal": "Crit Care",
+      "published": "2025-07-12",
+      "pmid": "00000001",
+      "doi": "10.1000/example.2025.001",
+      "type": "trial",
+      "intervention": "iv_iron",
+      "population": "icu",
+      "flags": [],
+      "abstract_html": "This pragmatic randomized trial in adult ICU patients evaluated IV ferric carboxymaltose versus standard care...",
+      "summary_html": "<dl><dt>PICO</dt><dd><b>P</b>: Adult ICU with anaemia; <b>I</b>: IV ferric carboxymaltose; <b>C</b>: usual care; <b>O</b>: transfusion by day 14.</dd><dt>Primary outcome</dt><dd>Risk difference \u22128% (95% CI \u221215 to \u22121).</dd><dt>Key secondary</dt><dd>Hb +9 g/L at day 14; LOS similar.</dd><dt>Safety</dt><dd>No excess infections or thrombosis observed.</dd><dt>Risk of bias (Cochrane)</dt><dd>Some concerns \u2014 allocation concealment unclear.</dd><dt>Subgroups</dt><dd>No prespecified subgroups with differential effects.</dd></dl>"
+    }
+  ]
+}

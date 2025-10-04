@@ -1,0 +1,29 @@
+{
+  "title": "IV Iron & ESAs in Critical and Perioperative Care",
+  "updated_utc": "2025-10-04T12:27:05.972465Z",
+  "metrics": {
+    "types": {
+      "trial_12m": 1,
+      "trial_total": 1,
+      "systematic_review_12m": 0,
+      "systematic_review_total": 0
+    },
+    "interventions": {
+      "iv_iron_12m": 1,
+      "iv_iron_total": 1,
+      "esa_12m": 0,
+      "esa_total": 0,
+      "other_pbm_12m": 0,
+      "other_pbm_total": 0
+    },
+    "populations": {
+      "icu_12m": 1,
+      "icu_total": 1,
+      "post_icu_12m": 0,
+      "post_icu_total": 0,
+      "other_12m": 0,
+      "other_total": 0
+    }
+  },
+  "summary_html": "<p><b>Overview:</b> Signal of improved haemoglobin and reduced transfusion with IV iron; no clear safety detriment (infection/thrombosis). ESAs less represented in modern ICU pathways.</p>"
+}

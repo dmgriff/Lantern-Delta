@@ -1,0 +1,35 @@
+
+slug: sample_ic_anaemia
+title: IV Iron & ESAs in Critical and Perioperative Care
+time_horizon_years: 20
+recency_months: 12
+sources:
+  - name: PubMed
+    driver: pubmed
+    search:
+      query: >
+        (critical care[Title/Abstract] OR intensive care[Title/Abstract] OR perioperative[Title/Abstract])
+        AND (intravenous iron OR ferric carboxymaltose OR iron sucrose OR erythropoiesis stimulating agent OR darbepoetin OR epoetin)
+ai_filter:
+  exclude:
+    designs: ["case report", "case series", "editorial", "letter", "observational"]
+    populations: ["paediatric", "neonatal", "adolescent"]
+    min_sample_size: 20
+classify:
+  interventions:
+    iv_iron: ["ferric carboxymaltose","iron sucrose","intravenous iron","ferric derisomaltose","ferumoxytol"]
+    esa: ["epoetin","darbepoetin","erythropoiesis stimulating"]
+    other_pbm: ["cell salvage","tranexamic","erythropoietin","folate","b12","vitamin b12"]
+  types:
+    trial: ["randomized","randomised","controlled trial"]
+    systematic_review: ["systematic review","meta-analysis"]
+  populations:
+    icu: ["intensive care","critical care","icu"]
+    post_icu: ["post-icu","post intensive care","survivor of critical illness","rehabilitation"]
+  safety_keywords: ["thromboembol", "infection", "sepsis", "anaphylaxis", "mortality"]
+summary:
+  key_questions: ["efficacy","effectiveness","safety","subgroups"]
+openai:
+  enable: true
+notifications:
+  enable: false

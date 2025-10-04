@@ -1,0 +1,27 @@
+
+:root{--bg:#fff;--fg:#111;--muted:#666;--grid:#eaeaea;--font:ui-sans-serif,-apple-system,system-ui,Segoe UI,Roboto,Helvetica,Arial}
+*{box-sizing:border-box}html,body{margin:0;padding:0;background:var(--bg);color:var(--fg);font-family:var(--font)}
+a{color:var(--fg);text-decoration:none;border-bottom:1px dotted var(--fg)}a:hover{opacity:.85}
+nav{display:flex;gap:12px;align-items:center;padding:12px 16px;border-bottom:1px solid var(--grid)}
+nav .brand{letter-spacing:.12em;text-transform:lowercase;font-weight:600}
+.container{max-width:1100px;margin:0 auto;padding:20px}
+h1{font-size:26px;letter-spacing:.08em;text-transform:lowercase;margin:0 0 6px;font-weight:600}
+h2{font-size:14px;color:var(--muted);text-transform:uppercase;letter-spacing:.12em;margin:18px 0 6px}
+.small{font-size:12px;color:var(--muted)}.muted{color:var(--muted)}
+.footer{border-top:1px solid var(--grid);padding:12px 16px;color:var(--muted);font-size:12px;margin-top:24px}
+.grid{display:grid;grid-template-columns:repeat(4,1fr);gap:10px;margin:18px 0}
+@media(max-width:720px){.grid{grid-template-columns:repeat(2,1fr)}}
+.tile{border:1px solid var(--grid);padding:16px;text-align:center;min-height:86px;transition:transform .1s}
+.tile:hover{transform:translateY(-2px)}
+.tile .num{font-size:22px;letter-spacing:.04em}
+.tile .label{margin-top:6px;font-size:11px;letter-spacing:.08em;color:var(--muted);text-transform:uppercase}
+.cards{display:grid;grid-template-columns:1fr;gap:10px}
+.card{border:1px solid var(--grid);padding:14px}
+.card .meta{font-size:12px;color:var(--muted);display:flex;gap:10px;flex-wrap:wrap}
+.badge{border:1px solid var(--grid);padding:2px 6px;font-size:10px;letter-spacing:.08em;text-transform:uppercase}
+.controls{display:flex;gap:8px;margin-left:auto}
+.hidden-link{color:var(--bg)} /* discreet link (◁ or .) */
+details>summary{cursor:pointer}
+dl{margin:0}dt{font-weight:600}dd{margin:0 0 6px 0}
+code,pre{font-family:ui-monospace,Menlo,Consolas,monospace}
+button{font:inherit;border:1px solid #111;background:#fff;padding:6px 10px;cursor:pointer}
