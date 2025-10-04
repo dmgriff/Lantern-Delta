@@ -1,29 +1,29 @@
 {
   "title": "IV Iron & ESAs in Critical and Perioperative Care",
-  "updated_utc": "2025-10-04T12:34:43.143020Z",
+  "updated_utc": "2025-10-04T12:36:48.029069Z",
   "metrics": {
     "types": {
-      "trial_total": 1,
-      "trial_12m": 1,
+      "trial_total": 0,
+      "trial_12m": 0,
       "systematic_review_total": 0,
       "systematic_review_12m": 0
     },
     "interventions": {
-      "iv_iron_total": 1,
-      "iv_iron_12m": 1,
+      "iv_iron_total": 0,
+      "iv_iron_12m": 0,
       "esa_total": 0,
       "esa_12m": 0,
       "other_pbm_total": 0,
       "other_pbm_12m": 0
     },
     "populations": {
-      "icu_total": 1,
-      "icu_12m": 1,
+      "icu_total": 0,
+      "icu_12m": 0,
       "post_icu_total": 0,
       "post_icu_12m": 0,
       "other_total": 0,
       "other_12m": 0
     }
   },
-  "summary_html": "<p><b>Overview:</b> 1 trial(s) and 0 systematic review(s) currently inform the question. Efficacy suggests possible transfusion reduction with IV iron; no consistent safety harms identified to date. Subgroup evidence remains limited.</p>"
+  "summary_html": "<p><b>Overview:</b> 0 trial(s) and 0 systematic review(s) currently inform the question. Efficacy suggests possible transfusion reduction with IV iron; no consistent safety harms identified to date. Subgroup evidence remains limited.</p>"
 }
